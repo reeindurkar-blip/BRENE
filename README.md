@@ -4,15 +4,37 @@ This module is used for installing a userspace helper tool called ksu_susfs and 
 
 More information soon.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="./images/1.jpg"></td>
+    <td><img src="./images/2.jpg"></td>
+    <td><img src="./images/3.jpg"></td>
+  <tr>
+  <tr>
+    <td><img src="./images/4.jpg"></td>
+    <td><img src="./images/5.jpg"></td>
+    <td><img src="./images/6.jpg"></td>
+  <tr>
+  <tr>
+    <td><img src="./images/7.jpg"></td>
+    <td><img src="./images/8.jpg"></td>
+    <td><img src="./images/9.jpg"></td>
+  <tr>
+  <tr>
+    <td><img src="./images/10.jpg"></td>
+  <tr>
+</table>
+
 ## Supported Versions
 
-- `KernelSU` v3.0.0+
-- `susfs4ksu` v2.0.0+
+- `susfs4ksu` v2.1.0+
 
 ## Hiding Features
 
 - Hide All Items in `/data/local/tmp`
-- Hide All Items in `/sdcard/Android/data`
+- Hide All Items in `/sdcard/Android/[data|media|obb]`
 - Hide Folders of `Rooted Apps`
 - Hide Folders of `Custom Recovery`
 - Hide some traces caused by some `Custom Kernels`
@@ -21,10 +43,9 @@ More information soon.
 - Hide Suspicious Mounts For Non Su Processes
 
 ## Spoofing Features
-- Spoof some `Android System Properties`
 
+- Spoof some `Android System Properties`
 - Spoof the sus `'su'` tcontext shown in avc log
-<!-- - Hide the exposed /proc interface of ext4 loop and jdb2 when mounting `modules.img` -->
 
 ## Credits
 
@@ -33,3 +54,7 @@ More information soon.
 - [`susfs4ksu`](https://gitlab.com/simonpunk/susfs4ksu)
 - [`susfs4ksu-module`](https://github.com/sidex15/susfs4ksu-module)
 - [`KOWX712`](https://github.com/KOWX712)
+
+## License
+
+BRENE is licensed under [AGPL 3.0](./LICENSE). You can read more about it on [Open Source Initiative](https://opensource.org/licenses/AGPL-3.0).
