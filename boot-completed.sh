@@ -96,7 +96,7 @@ inotifyd "${MODDIR}/inotify.sh" /sdcard:n &
 
 ## For paths that are frequently modified, we can add them via 'add_sus_path_loop' ##
 
-# Paths Hiding
+# Suspicious Paths Hiding
 
 # Non-standard /sdcard
 if [[ "${config_paths_hiding__non_standard_sdcard}" == "1" ]]; then
@@ -193,9 +193,9 @@ fi
 if [[ "${config_brene_logs}" == "1" ]]; then
 	{
 		echo ""
-		echo "##################"
-		echo "Other Paths Hiding"
-		echo "##################"
+		echo "#############################"
+		echo "Other Suspicious Paths Hiding"
+		echo "#############################"
 	} >> "${PERSISTENT_DIR}/logs.txt"
 fi
 # brene_sus_path "/sys/block/loop0"
