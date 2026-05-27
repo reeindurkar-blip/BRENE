@@ -88,10 +88,10 @@ TARGET1="/sdcard/${TARGET}"
 TARGET2="/sdcard/Android/data/${TARGET}"
 TARGET3="/sdcard/Android/media/${TARGET}"
 TARGET4="/sdcard/Android/obb/${TARGET}"
-[[ -e "${TARGET1}" ]] && rm -rf "${TARGET1}"
-[[ -e "${TARGET2}" ]] && rm -rf "${TARGET2}"
-[[ -e "${TARGET3}" ]] && rm -rf "${TARGET3}"
-[[ -e "${TARGET4}" ]] && rm -rf "${TARGET4}"
+rm -rf "${TARGET1}"
+rm -rf "${TARGET2}"
+rm -rf "${TARGET3}"
+rm -rf "${TARGET4}"
 inotifyd "${MODDIR}/inotify.sh" /sdcard:n &
 
 ## For paths that are frequently modified, we can add them via 'add_sus_path_loop' ##
