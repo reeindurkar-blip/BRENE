@@ -52,7 +52,6 @@ More information soon.
 - [`Magisk`](https://github.com/topjohnwu/Magisk)
 - [`KernelSU`](https://github.com/tiann/KernelSU)
 - [`susfs4ksu`](https://gitlab.com/simonpunk/susfs4ksu)
-- [`susfs4ksu-module`](https://github.com/sidex15/susfs4ksu-module)
 - [`KOWX712`](https://github.com/KOWX712)
 
 ## License
